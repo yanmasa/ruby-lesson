@@ -16,3 +16,5 @@ puts (a ^ b).to_s(2)
 puts (a >> 1).to_s(2)
 # 左ビットシフト
 puts (a << 1).to_s(2)
+
+
