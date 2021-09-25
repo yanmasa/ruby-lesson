@@ -1,3 +1,4 @@
+puts ?あ
 # && || の戻り値を評価するタイミング
 puts 1 && 2 && 3
 puts 1 && nil && 3
@@ -9,7 +10,7 @@ puts nil || false
 puts false || nil
 puts nil || false || 2 || 3
 
-# ! && || not and or  の優先順位
+# ! && || not and or  の優先順位(2.10.2)
 t1 = true
 t2 = true
 f1 = false
