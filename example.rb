@@ -1,5 +1,7 @@
-def add(a,b)
-  a+b
+Currencies = {japan: 100, us: 1}
+def exchange(number, from: :japan, to: :japan)
+  number / Currencies[from] * Currencies[to]
 end
 
-puts add(5,3)
+puts Currencies[:japan]
+puts exchange(100,from: :japan,to: :us)
